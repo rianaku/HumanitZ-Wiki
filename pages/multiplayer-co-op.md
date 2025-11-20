@@ -1,6 +1,3 @@
-
----
-
 # <span style="color:#E79543;">🤝 Multiplayer & Co-op</span>
 > Surviving the end of the world is easier with people you trust.
 
