@@ -4,11 +4,6 @@
 <!--  Color: #E79543 (Primary)       -->
 <!-- =============================== -->
 
----
-title: "Game Overview"
-layout: default
----
-
 <!-- LOGO -->
 <p align="center">
   <img src="./assets/logo.jpg" width="600">
