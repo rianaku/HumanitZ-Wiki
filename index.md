@@ -1,3 +1,9 @@
+<!-- =============================== -->
+<!--  HUMANITZ WIKI – FRONT PAGE     -->
+<!--  Branding: Orange/Black Theme   -->
+<!--  Color: #E79543 (Primary)       -->
+<!-- =============================== -->
+
 ---
 
 # <span style="color:#E79543;">📚 Wiki Index</span>
