@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="assets/css/humanitz.css">
+
 <!-- NAV -->
 <div style="position:sticky; top:0; background:#000; padding:12px 0; z-index:999; border-bottom:1px solid #333;">
 <p align="center" style="font-size:14px;">
