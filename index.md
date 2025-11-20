@@ -4,26 +4,10 @@
 <!--  Color: #E79543 (Primary)       -->
 <!-- =============================== -->
 
-<link rel="stylesheet" href="assets/css/humanitz.css">
-
-<!-- STICKY NAV (Works on GitHub Pages) -->
-<div style="position:sticky; top:0; background:#000; padding:12px 0; z-index:999; border-bottom:1px solid #333;">
-<p align="center" style="font-size:14px;">
-  <a href="index.html" style="color:#E79543; margin:0 12px;">🏠 Home</a>
-  <a href="game-overview.html" style="color:#E79543; margin:0 12px;">🧭 Overview</a>
-  <a href="getting-started.html" style="color:#E79543; margin:0 12px;">🎒 Getting Started</a>
-  <a href="survival-mechanics.html" style="color:#E79543; margin:0 12px;">🍖 Survival</a>
-  <a href="base-building.html" style="color:#E79543; margin:0 12px;">🏠 Base</a>
-  <a href="loot-crafting.html" style="color:#E79543; margin:0 12px;">🔧 Crafting</a>
-  <a href="weapons-gear.html" style="color:#E79543; margin:0 12px;">🔫 Weapons</a>
-  <a href="enemies-threats.html" style="color:#E79543; margin:0 12px;">🧟 Enemies</a>
-  <a href="map-environments.html" style="color:#E79543; margin:0 12px;">🗺️ Map</a>
-  <a href="multiplayer-co-op.html" style="color:#E79543; margin:0 12px;">🤝 Co-op</a>
-  <a href="tips-strategy.html" style="color:#E79543; margin:0 12px;">💡 Tips</a>
-  <a href="glossary.html" style="color:#E79543; margin:0 12px;">🔤 Glossary</a>
-  <a href="contribute.html" style="color:#E79543; margin:0 12px;">🛠️ Contribute</a>
-</p>
-</div>
+---
+title: "Game Overview"
+layout: default
+---
 
 <!-- LOGO -->
 <p align="center">
