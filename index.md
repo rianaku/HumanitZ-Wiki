@@ -27,7 +27,7 @@
 
 <!-- LOGO -->
 <p align="center">
-  <img src="./Logo.jpg" width="800">
+  <img src="./assets/Logo.jpg" width="600">
 </p>
 
 <h1 align="center" style="color:#E79543; margin-top:0;">
