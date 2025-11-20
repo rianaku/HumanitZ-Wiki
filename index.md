@@ -9,21 +9,21 @@
 # <span style="color:#E79543;">📚 Wiki Index</span>
 
 <div style="background:#0A0A0A; padding:20px; border:1px solid #222; border-radius:8px;">
-  
+
 | Section | Description |
 |--------|-------------|
-| 🧭 **[Game Overview](Game-Overview.md)** | Understand the world, lore, and core gameplay pillars. |
-| 🎒 **[Getting Started](Getting-Started.md)** | Your first day, first base, first weapons, first survival wins. |
-| 🍖 **[Survival Mechanics](Survival-Mechanics.md)** | Hunger, thirst, cold, injuries, weather, and permadeath. |
-| 🏠 **[Base Building](Base-Building.md)** | Construction, fortifications, farms, outposts, garages. |
-| 🔧 **[Loot & Crafting](Loot-Crafting.md)** | All crafting systems, recipes, harvesting, refining. |
-| 🔫 **[Weapons & Gear](Weapons-&-Gear.md)** | All weapons, melee, ranged, armor, backpack tiers. |
-| 🧟 **[Enemies & Threats](Enemies-&-Threats.md)** | Zeek types, wildlife, environmental hazards. |
-| 🗺️ **[Map & Environments](Map-&-Environments.md)** | Biomes, POIs, weather system, travel, vehicles. |
-| 🤝 **[Multiplayer & Co-op](Multiplayer-&-Co-op.md)** | Hosting, strategies, team roles, base-sharing. |
-| 💡 **[Tips & Strategy](Tips-&-Strategy.md)** | Beginner → advanced survival strategies. |
-| 🔤 **[Glossary](Glossary.md)** | All key terms, systems, abbreviations. |
-| 🛠️ **[Contribute](Contribute.md)** | Help build and improve the Wiki. |
+| 🧭 **[Game Overview]({{ '/pages/game-overview.html' | relative_url }})** | Understand the world, lore, and core gameplay pillars. |
+| 🎒 **[Getting Started]({{ '/pages/getting-started.html' | relative_url }})** | Your first day, first base, first weapons, first survival wins. |
+| 🍖 **[Survival Mechanics]({{ '/pages/survival-mechanics.html' | relative_url }})** | Hunger, thirst, cold, injuries, weather, and permadeath. |
+| 🏠 **[Base Building]({{ '/pages/base-building.html' | relative_url }})** | Construction, fortifications, farms, outposts, garages. |
+| 🔧 **[Loot & Crafting]({{ '/pages/loot-crafting.html' | relative_url }})** | All crafting systems, recipes, harvesting, refining. |
+| 🔫 **[Weapons & Gear]({{ '/pages/weapons-gear.html' | relative_url }})** | All weapons, melee, ranged, armor, backpack tiers. |
+| 🧟 **[Enemies & Threats]({{ '/pages/enemies-threats.html' | relative_url }})** | Zeek types, wildlife, environmental hazards. |
+| 🗺️ **[Map & Environments]({{ '/pages/map-environments.html' | relative_url }})** | Biomes, POIs, weather system, travel, vehicles. |
+| 🤝 **[Multiplayer & Co-op]({{ '/pages/multiplayer-co-op.html' | relative_url }})** | Hosting, strategies, team roles, base-sharing. |
+| 💡 **[Tips & Strategy]({{ '/pages/tips-strategy.html' | relative_url }})** | Beginner → advanced survival strategies. |
+| 🔤 **[Glossary]({{ '/pages/glossary.html' | relative_url }})** | All key terms, systems, abbreviations. |
+| 🛠️ **[Contribute]({{ '/pages/contribute.html' | relative_url }})** | Help build and improve the Wiki. |
 
 </div>
 
@@ -102,24 +102,3 @@ This Wiki aims to:
 - Environmental dangers  
 
 </details>
-
----
-
-# <span style="color:#E79543;">🛠️ Contribute to the Wiki</span>
-
-Help us expand the knowledge of HumanitZ.
-
-See **[Contribute.md](Contribute.md)** for:
-
-- Style rules  
-- Page structure  
-- Navigation rules  
-- PR guidelines  
-- Content accuracy standards  
-
----
-
-<p align="center" style="color:#555; font-size:13px; margin-top:40px;">
-<i>In the end of the world, knowledge is survival.</i>
-</p>
-
