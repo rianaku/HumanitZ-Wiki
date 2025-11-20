@@ -4,6 +4,8 @@
 <!--  Color: #E79543 (Primary)       -->
 <!-- =============================== -->
 
+---
+
 # <span style="color:#E79543;">📚 Wiki Index</span>
 
 <div style="background:#0A0A0A; padding:20px; border:1px solid #222; border-radius:8px;">
