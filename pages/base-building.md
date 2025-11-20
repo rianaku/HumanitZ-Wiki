@@ -1,6 +1,3 @@
-
----
-
 # <span style="color:#E79543;">🏠 Base Building</span>
 > Turning ruins into something that resembles home.
 
