@@ -1,6 +1,3 @@
-
----
-
 # <span style="color:#E79543;">🧟 Enemies & Threats</span>
 > Everything trying to turn you into one of them (or a corpse).
 
