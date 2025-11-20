@@ -1,6 +1,3 @@
-
----
-
 # <span style="color:#E79543;">🎒 Getting Started</span>
 > A practical first-session route from spawning to not instantly dying.
 
