@@ -1,0 +1,14 @@
+theme: null
+markdown: GFM
+
+# Load our custom stylesheet
+include:
+  - assets/css/humanitz.css
+
+# Inject stylesheet into every page
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      css: "/assets/css/humanitz.css"
