@@ -1,14 +1,4 @@
-theme: null
+title: "HumanitZ Wiki"
+description: "Community-maintained HumanitZ game wiki"
+theme: jekyll-theme-minimal
 markdown: GFM
-
-# Load our custom stylesheet
-include:
-  - assets/css/humanitz.css
-
-# Inject stylesheet into every page
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      css: "assets/css/humanitz.css"
