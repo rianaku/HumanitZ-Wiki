@@ -4,10 +4,7 @@
 <!--  Color: #E79543 (Primary)       -->
 <!-- =============================== -->
 
----
-title: HumanitZ Wiki
-css: /assets/css/humanitz.css
----
+<link rel="stylesheet" href="assets/css/humanitz.css">
 
 <!-- STICKY NAV (Works on GitHub Pages) -->
 <div style="position:sticky; top:0; background:#000; padding:12px 0; z-index:999; border-bottom:1px solid #333;">
