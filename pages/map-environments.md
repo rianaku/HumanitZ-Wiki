@@ -1,6 +1,3 @@
-
----
-
 # <span style="color:#E79543;">🗺️ Map & Environments</span>
 > The world layout, biomes, and how the environment shapes risk.
 
