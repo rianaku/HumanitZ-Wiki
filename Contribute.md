@@ -84,11 +84,14 @@ Extra content…
 
 </details>
 ```
+---
 
-<span style="color:#E79543;">5. Issues & Requests</span>
+## <span style="color:#E79543;">5. Issues & Requests</span>
 Use GitHub Issues to:
-Report outdated or incorrect information.
-Request new pages or sections.
-Suggest structural changes to the wiki.
+- Report outdated or incorrect information.
+- Request new pages or sections.
+- Suggest structural changes to the wiki.
+
+---
 
 <p align="center" style="color:#555; font-size:13px;"> Thanks for helping other survivors stay alive a little longer. </p>
