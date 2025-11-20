@@ -1,6 +1,3 @@
-
----
-
 # <span style="color:#E79543;">🍖 Survival Mechanics</span>
 > How the game tries to kill you even when no zeek is in sight.
 
