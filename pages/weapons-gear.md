@@ -1,6 +1,3 @@
-
----
-
 # <span style="color:#E79543;">🔫 Weapons & Gear</span>
 > Everything you hit with, get hit through, or carry your life in.
 
