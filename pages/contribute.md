@@ -1,3 +1,6 @@
+
+---
+
 # <span style="color:#E79543;">🛠️ Contribute to the HumanitZ Wiki</span>
 > Help make this the best resource for the game.
 
