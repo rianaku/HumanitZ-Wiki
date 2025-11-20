@@ -11,4 +11,4 @@ defaults:
     scope:
       path: ""
     values:
-      css: "/assets/css/humanitz.css"
+      css: "assets/css/humanitz.css"
