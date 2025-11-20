@@ -1,3 +1,6 @@
+
+---
+
 # <span style="color:#E79543;">🧭 Game Overview</span>
 > High-level understanding of HumanitZ – world, tone, and core loops.
 
