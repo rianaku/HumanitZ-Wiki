@@ -1,6 +1,21 @@
 title: "HumanitZ Wiki"
-description: "Community-maintained HumanitZ game wiki"
+description: "HumanitZ - Community Wiki"
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
 - jekyll-remote-theme
 markdown: GFM
+
+# Automatically process your layout + includes
+include:
+  - _layouts
+  - _includes
+  - assets
+
+# (Optional) Default layout for all .md files:
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "wiki"
