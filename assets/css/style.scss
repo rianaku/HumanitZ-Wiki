@@ -9,10 +9,34 @@
    =============================== */
 
 body {
+  margin: 0;
   background: #000000;
   color: #C6C6C6;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
+}
+
+/* Global centered container (wraps header, content, footer in wiki.html) */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Centered wiki layout for main content */
+.page-content {
+  max-width: 1000px;         /* Ideal reading width */
+  margin: 0 auto;            /* Center horizontally */
+  padding: 20px 30px;        /* Add breathing space */
+  background: #000000;       /* Keep your dark background */
+}
+
+/* Logo tweaks (used on the logo wrapper in header.html) */
+.header-logo img {
+  max-width: 300px;
+  width: 100%;
+  display: block;
+  margin: 20px auto;
 }
 
 /* Headers */
@@ -87,7 +111,7 @@ summary {
   font-weight: 600;
 }
 
-/* “Card” panels if you want them */
+/* “Card” panels */
 .dark-card {
   background: #0A0A0A;
   color: #C6C6C6;
@@ -103,7 +127,7 @@ img {
   margin: 16px auto;
 }
 
-/* Footer text */
+/* Footer text helper (if used in content) */
 .footer-text {
   margin-top: 40px;
   text-align: center;
