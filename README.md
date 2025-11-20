@@ -21,29 +21,33 @@ Our goal is to create a **professional, organized, and complete wiki** that is:
 
 This repository includes:
 
-### **🖥 GitHub Pages Wiki**
-Powered by **Jekyll** and a custom **orange/black HumanitZ theme**, the wiki lives in:
-/index.md
-/pages/*.md
-/_layouts/wiki.html
-/_includes/header.html
-/_includes/footer.html
-/assets/css/style.scss
+### 🖥 GitHub Pages Wiki
 
+Powered by **Jekyll** and a custom **orange/black HumanitZ theme**, the wiki core lives in:
 
-### **📄 Markdown Content**
-All wiki articles are written in simple Markdown, then rendered to HTML through Jekyll.
+- `index.md`
+- `pages/*.md`
+- `_layouts/wiki.html`
+- `_includes/header.html`
+- `_includes/footer.html`
+- `assets/css/style.scss`
 
-### **🎨 Custom Theme**
+### 📄 Markdown Content
+
+All wiki articles are written in simple **Markdown**, then rendered to HTML through Jekyll.
+
+### 🎨 Custom Theme
+
 A custom-designed stylesheet replicates the HumanitZ aesthetic:
 
 - Black backgrounds  
-- Orange headers (#E79543)  
+- Orange headers (`#E79543`)  
 - Grey text  
 - Styled tables, code blocks, collapsible sections  
 
-### **🧭 Shared Navigation**
-One header + one footer file injects consistent navigation into all pages.
+### 🧭 Shared Navigation
+
+A single **header** and **footer** include inject shared navigation and footer content into all pages, so the site stays consistent and easy to maintain.
 
 ---
 
@@ -53,7 +57,7 @@ The live wiki:
 
 👉 **https://rianaku.github.io/HumanitZ-Wiki/**
 
-Popular pages:
+Example content areas:
 
 - Game Overview  
 - Getting Started  
@@ -70,120 +74,212 @@ Popular pages:
 
 Everyone is welcome to help.
 
-### **1️⃣ Fork the Repository**
-Click **Fork** at the top right.
+### 1️⃣ Fork the Repository
 
-### **2️⃣ Create a Branch**
-Example:
+Click **Fork** at the top right of the GitHub page.
+
+### 2️⃣ Create a Branch
+
+Create a feature branch for your changes:
+
+```bash
 git checkout -b add-survival-fire-info
+````
 
-### **3️⃣ Edit or Add Wiki Pages**
-All content lives in:
-/pages/
+Use a descriptive branch name that reflects your change.
 
+### 3️⃣ Edit or Add Wiki Pages
 
-Follow the established formatting style:
+All main content lives in:
 
-- Start each file with front matter:
+* `pages/`
+
+Each page should:
+
+* Start with front matter at the top:
+
   ```yaml
   ---
   title: "Page Title"
   layout: wiki
   ---
-Use clean Markdown
+  ```
 
-Avoid raw HTML unless necessary
+* Use clean Markdown
 
-Use the existing tone/style for consistency
+* Only use raw HTML when necessary (e.g., advanced layout, icons, or special formatting)
 
-4️⃣ Submit a Pull Request
+* Follow the existing tone and structure for consistency
 
-Explain:
+If you add new pages:
 
-What you changed
+* Place them in `pages/`
+* Give them a clear, kebab-case filename (e.g., `weapons-gear.md`, `map-environments.md`)
+* Make sure they’re linked from the main navigation and/or index page
 
-Why
+### 4️⃣ Submit a Pull Request
 
-Links/screenshots if helpful
+Once you’re happy with your changes:
 
-A maintainer will review/merge your PR.
+```bash
+git add .
+git commit -m "Add survival fire mechanics section"
+git push origin add-survival-fire-info
+```
 
-🎨 Writing & Style Guidelines
+Then open a **Pull Request** on GitHub.
 
-To keep the wiki consistent:
+In your PR, briefly explain:
 
-Formatting
+* What you changed
+* Why you changed it
+* Any related in-game context, screenshots, or references that help review
 
-Use ## and ### for headings — avoid overusing #
+A maintainer will review and merge (or request tweaks).
 
-Use tables where appropriate
+---
 
-Keep paragraphs short and readable
+## 🎨 Writing & Style Guidelines
 
-Use collapsible <details> blocks for long sections
+To keep the wiki consistent and useful:
 
-Tone
+### Formatting
 
-Neutral
+* Use `##` for main sections, `###` for subsections, and avoid overusing `#` (top-level) inside content pages.
+* Use lists and tables where they make information clearer.
+* Keep paragraphs relatively short for readability.
+* Use `<details>` blocks for long, optional, or spoiler-like sections:
 
-Informative
+  ```html
+  <details>
+  <summary>Click to expand detailed breakdown</summary>
 
-No speculation
+  Long explanation here…
 
-Cite in-game evidence when relevant
+  </details>
+  ```
 
-Images
+### Tone
 
-Place in an /assets/images/ folder (you may create one).
-Use:
-![Description](/assets/images/example.png)
+* Neutral and informative
+* Avoid speculation or unconfirmed rumors
+* When possible, base content on in-game testing, verified patch notes, or official dev communication
 
-💻 Running the Wiki Locally (Optional)
+### Images
 
-If you want to preview your changes locally:
+If you add screenshots or diagrams, place them under an images folder (you can create this if it doesn’t exist yet):
 
-Install Ruby + Bundler
+* `assets/images/`
 
-On Windows:
-Install Ruby from https://rubyinstaller.org/
+Reference them like this:
 
+```md
+![Short description](/assets/images/example.png)
+```
+
+Use meaningful alt text so the wiki is accessible.
+
+---
+
+## 💻 Running the Wiki Locally (Optional)
+
+If you want to preview your changes locally before opening a PR:
+
+### 1️⃣ Install Ruby & Bundler
+
+On Windows, install Ruby from:
+
+* [https://rubyinstaller.org/](https://rubyinstaller.org/)
+
+Then install Bundler and Jekyll:
+
+```bash
 gem install bundler jekyll
+```
 
-Install dependencies
+### 2️⃣ Install Dependencies
+
+From the repo root:
+
+```bash
 bundle install
+```
 
-Run the wiki
+### 3️⃣ Run the Wiki
+
+```bash
 bundle exec jekyll serve
-Visit:
+```
+
+Then open:
+
+```text
 http://localhost:4000/HumanitZ-Wiki/
+```
+
+You’ll see the site as GitHub Pages will render it.
 
 ---
 
-🤝 Credits
+## 📁 Repository Structure
 
-This project is community-driven and not officially affiliated with the developers of HumanitZ.
-
-Special thanks to contributors who help expand and maintain this wiki.
+```text
+HumanitZ-Wiki/
+│
+├── index.md                 # Wiki homepage
+├── README.md                # Repository documentation (you are here)
+│
+├── pages/                   # All main wiki content pages
+│   ├── game-overview.md
+│   ├── getting-started.md
+│   ├── survival-mechanics.md
+│   ├── weapons-gear.md
+│   ├── loot-crafting.md
+│   ├── enemies-threats.md
+│   ├── map-environments.md
+│   ├── multiplayer-co-op.md
+│   ├── tips-strategy.md
+│   ├── glossary.md
+│   └── contribute.md
+│
+├── _layouts/
+│   └── wiki.html            # Shared layout for wiki pages
+│
+├── _includes/
+│   ├── header.html          # Global navigation bar
+│   └── footer.html          # Global footer (contribution info, timestamp, etc.)
+│
+├── assets/
+│   └── css/
+│       └── style.scss       # Custom HumanitZ dark theme (extends the Jekyll theme)
+│
+└── _config.yml              # Jekyll configuration (theme, markdown engine, etc.)
+```
 
 ---
 
-📬 Contact / Issues
+## 🤝 Credits
+
+This project is community-driven and **not** officially affiliated with the developers of *HumanitZ*.
+
+Thanks to everyone who contributes corrections, data, screenshots, builds, and guides to make the wiki better.
+
+---
+
+## 📬 Contact / Issues
 
 Found a mistake?
-Want to request a page?
-Need support?
+Want to request a page or section?
+Need help contributing?
 
-Create an issue:
+Open an issue here:
 
-👉 https://github.com/rianaku/HumanitZ-Wiki/issues
+👉 [https://github.com/rianaku/HumanitZ-Wiki/issues](https://github.com/rianaku/HumanitZ-Wiki/issues)
 
 ---
 
-🧡 Thank You
+## 🧡 Thank You
 
-Your contributions help new players survive a little longer in the brutal world of HumanitZ.
+Your contributions help new players survive a little longer in the brutal world of **HumanitZ**.
 
 Stay alive out there.
-
-
----
