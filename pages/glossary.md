@@ -1,6 +1,3 @@
-
----
-
 # <span style="color:#E79543;">🔤 Glossary</span>
 > Quick references for terms used in HumanitZ and this wiki.
 
