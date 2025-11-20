@@ -25,7 +25,7 @@
 
 <!-- LOGO -->
 <p align="center">
-  <img src="https://humanitzgame.com/images/logo.png" width="280">
+  <img src="./Logo.jpg" width="800">
 </p>
 
 <h1 align="center" style="color:#E79543; margin-top:0;">
