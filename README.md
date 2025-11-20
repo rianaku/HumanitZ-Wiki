@@ -1,18 +1,74 @@
-# HumanitZ Wiki  
-Welcome to the community-driven Wiki for *HumanitZ* — a survival sandbox game where you must scavenge, build, defend and survive in a world overrun by zeeks (zombies).  
-This repository hosts the full wiki pages; contributions are welcome.
+<!-- HEADER BANNER -->
+<p align="center">
+  <img src="https://humanitzgame.com/images/logo.png" width="280" />
+</p>
 
-## About the Game  
-* HumanitZ lets you explore a vast, unforgiving world… :contentReference[oaicite:1]{index=1}  
-* Live off the land: scavenge ruins or build a farm. :contentReference[oaicite:2]{index=2}  
-* Base-building, crafting, survival mechanics with permadeath option. :contentReference[oaicite:3]{index=3}  
-* Loot, gear, weapons, vehicles, zeek variants… many systems to cover.  
+<h1 align="center">HumanitZ – Community Wiki</h1>
 
-## How to Use  
-Navigate the markdown files to find detailed information on game mechanics, items, enemies, strategy and more.
+<p align="center">
+Survive. Build. Reclaim. Thrive.
+<br>
+A player-maintained, highly structured knowledge base for <strong>HumanitZ</strong>.
+</p>
 
-## Contributing  
-See [Contribute.md](Contribute.md) for guidelines on how to add or edit pages.
+---
 
-## License  
-Content is Community-shared under CC-BY-SA unless otherwise noted.  
+## 📚 Wiki Index  
+All major topics are fully navigable from any page.
+
+| Category | Description |
+|---------|-------------|
+| 🧭 **[Game Overview](Game-Overview.md)** | What HumanitZ is, game philosophy, world, setting. |
+| 🎒 **[Getting Started](Getting-Started.md)** | Beginner steps, first base, key survival tips. |
+| 🍖 **[Survival Mechanics](Survival-Mechanics.md)** | Hunger, thirst, weather, injuries, permadeath. |
+| 🏠 **[Base Building](Base-Building.md)** | Housing, fortification, outposts, farming. |
+| 🔧 **[Loot & Crafting](Loot-Crafting.md)** | Crafting trees, recipes, resources, upgrades. |
+| 🔫 **[Weapons & Gear](Weapons-&-Gear.md)** | Weapons, armor, backpacks, tools, attachments. |
+| 🧟 **[Enemies & Threats](Enemies-&-Threats.md)** | Zeeks, wildlife, hazards, world bosses. |
+| 🗺️ **[Map & Environments](Map-&-Environments.md)** | Biomes, travel, points of interest, weather. |
+| 🤝 **[Multiplayer & Co-op](Multiplayer-&-Co-op.md)** | Hosting, co-op survival strategies, roles. |
+| 💡 **[Tips & Strategy](Tips-&-Strategy.md)** | Beginner → advanced strategy systems. |
+| 🔤 **[Glossary](Glossary.md)** | Quick terms, abbreviations, mechanics. |
+| 🛠️ **[How to Contribute](Contribute.md)** | Add/edit pages, formatting rules, PR guide. |
+
+---
+
+# 🎮 What Is HumanitZ?
+A zombie-survival sandbox focused on:
+- Scavenging and open-world exploration  
+- Base construction, fortification, home-building  
+- Crafting & resource gathering  
+- Brutal survival systems  
+- Challenging combat with multiple zeek types  
+- Realistic vehicles, repairs, upgrades  
+- Solo or co-op multiplayer up to four players  
+
+---
+
+# 🏗️ Project Goals of This Wiki  
+- **Organize everything the official & community sources fail to explain clearly**  
+- Provide **accurate**, **structured**, and **beautifully formatted** information  
+- Support both newcomers and experienced survivors  
+- Create a system that’s easy to expand as the game updates  
+
+---
+
+# ✨ Features of This Wiki  
+- Fully linked navigation  
+- Clean consistent headers  
+- Section boxes for clarity  
+- Optional HTML elements for GitHub Pages polish  
+- Designed to be browsed like a real game manual  
+
+---
+
+# 🧩 Contribute  
+This wiki is built by players — your help matters.  
+Visit **[Contribute.md](Contribute.md)** for formatting & submission rules.
+
+---
+
+<p align="center">
+<i>“In the end of the world, knowledge is survival.”</i>
+</p>
+
