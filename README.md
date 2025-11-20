@@ -1,159 +1,199 @@
-<!-- =============================== -->
-<!--  HUMANITZ WIKI – FRONT PAGE     -->
-<!--  Branding: Orange/Black Theme   -->
-<!--  Color: #E79543 (Primary)       -->
-<!-- =============================== -->
+# 🧡 HumanitZ Community Wiki  
+*A fan-maintained knowledge base for the survival game **HumanitZ***  
 
-<!-- STICKY NAV (Works on GitHub Pages) -->
-<div style="position:sticky; top:0; background:#000; padding:12px 0; z-index:999; border-bottom:1px solid #333;">
-<p align="center" style="font-size:14px;">
-  <a href="README.md" style="color:#E79543; margin:0 12px;">🏠 Home</a>
-  <a href="Game-Overview.md" style="color:#E79543; margin:0 12px;">🧭 Overview</a>
-  <a href="Getting-Started.md" style="color:#E79543; margin:0 12px;">🎒 Getting Started</a>
-  <a href="Survival-Mechanics.md" style="color:#E79543; margin:0 12px;">🍖 Survival</a>
-  <a href="Base-Building.md" style="color:#E79543; margin:0 12px;">🏠 Base</a>
-  <a href="Loot-Crafting.md" style="color:#E79543; margin:0 12px;">🔧 Crafting</a>
-  <a href="Weapons-&-Gear.md" style="color:#E79543; margin:0 12px;">🔫 Weapons</a>
-  <a href="Enemies-&-Threats.md" style="color:#E79543; margin:0 12px;">🧟 Enemies</a>
-  <a href="Map-&-Environments.md" style="color:#E79543; margin:0 12px;">🗺️ Map</a>
-  <a href="Multiplayer-&-Co-op.md" style="color:#E79543; margin:0 12px;">🤝 Co-op</a>
-  <a href="Tips-&-Strategy.md" style="color:#E79543; margin:0 12px;">💡 Tips</a>
-  <a href="Glossary.md" style="color:#E79543; margin:0 12px;">🔤 Glossary</a>
-  <a href="Contribute.md" style="color:#E79543; margin:0 12px;">🛠️ Contribute</a>
-</p>
-</div>
+Welcome to the GitHub repository for the **HumanitZ Community Wiki**, a fully open-source project built to document everything about the world, mechanics, systems, and strategies of *HumanitZ*.
 
-<!-- LOGO -->
-<p align="center">
-  <img src="./assets/logo.jpg" width="600">
-</p>
+This repository powers the public site:
 
-<h1 align="center" style="color:#E79543; margin-top:0;">
-  HumanitZ – Community Wiki
-</h1>
+👉 **https://rianaku.github.io/HumanitZ-Wiki/**
 
-<p align="center" style="color:#C6C6C6;">
-A survival-focused, player-maintained knowledge base for the world of <strong>HumanitZ</strong>.
-<br>
-Built with love by survivors, for survivors.
-</p>
+Our goal is to create a **professional, organized, and complete wiki** that is:
+
+- Easy to navigate  
+- Accurate  
+- Up-to-date  
+- Beautiful and readable  
+- Open to contributions from anyone  
 
 ---
 
-# <span style="color:#E79543;">📚 Wiki Index</span>
+## 📘 What This Repo Contains
 
-<div style="background:#0A0A0A; padding:20px; border:1px solid #222; border-radius:8px;">
-  
-| Section | Description |
-|--------|-------------|
-| 🧭 **[Game Overview](Game-Overview.md)** | Understand the world, lore, and core gameplay pillars. |
-| 🎒 **[Getting Started](Getting-Started.md)** | Your first day, first base, first weapons, first survival wins. |
-| 🍖 **[Survival Mechanics](Survival-Mechanics.md)** | Hunger, thirst, cold, injuries, weather, and permadeath. |
-| 🏠 **[Base Building](Base-Building.md)** | Construction, fortifications, farms, outposts, garages. |
-| 🔧 **[Loot & Crafting](Loot-Crafting.md)** | All crafting systems, recipes, harvesting, refining. |
-| 🔫 **[Weapons & Gear](Weapons-&-Gear.md)** | All weapons, melee, ranged, armor, backpack tiers. |
-| 🧟 **[Enemies & Threats](Enemies-&-Threats.md)** | Zeek types, wildlife, environmental hazards. |
-| 🗺️ **[Map & Environments](Map-&-Environments.md)** | Biomes, POIs, weather system, travel, vehicles. |
-| 🤝 **[Multiplayer & Co-op](Multiplayer-&-Co-op.md)** | Hosting, strategies, team roles, base-sharing. |
-| 💡 **[Tips & Strategy](Tips-&-Strategy.md)** | Beginner → advanced survival strategies. |
-| 🔤 **[Glossary](Glossary.md)** | All key terms, systems, abbreviations. |
-| 🛠️ **[Contribute](Contribute.md)** | Help build and improve the Wiki. |
+This repository includes:
 
-</div>
+### **🖥 GitHub Pages Wiki**
+Powered by **Jekyll** and a custom **orange/black HumanitZ theme**, the wiki lives in:
+/index.md
+/pages/*.md
+/_layouts/wiki.html
+/_includes/header.html
+/_includes/footer.html
+/assets/css/style.scss
 
----
 
-# <span style="color:#E79543;">🎮 What Is HumanitZ?</span>
+### **📄 Markdown Content**
+All wiki articles are written in simple Markdown, then rendered to HTML through Jekyll.
 
-<div style="background:#111111; padding:20px; border:1px solid #333; border-radius:8px;">
+### **🎨 Custom Theme**
+A custom-designed stylesheet replicates the HumanitZ aesthetic:
 
-HumanitZ is a **top-down open-world survival game** set in a collapsing society overrun by **zeeks** (zombies).  
-It's a slow-burn, atmospheric survival experience with:
+- Black backgrounds  
+- Orange headers (#E79543)  
+- Grey text  
+- Styled tables, code blocks, collapsible sections  
 
-- ⚔️ **Lethal combat**
-- 🧱 **Deep base-building**
-- 🌾 **Farming, hunting, fishing**
-- 🚗 **Vehicles and repairs**
-- 🧭 **Open-world exploration**
-- 👥 **Co-op multiplayer**
-- 💀 **Optional permadeath**
-
-Everything you do matters. Every decision has consequences.
-
-</div>
+### **🧭 Shared Navigation**
+One header + one footer file injects consistent navigation into all pages.
 
 ---
 
-# <span style="color:#E79543;">🏗️ Wiki Philosophy</span>
+## 📚 Visit the Wiki
 
-<div style="background:#0F0F0F; padding:20px; border:1px solid #333; border-radius:8px;">
+The live wiki:
 
-This Wiki aims to:
+👉 **https://rianaku.github.io/HumanitZ-Wiki/**
 
-- Provide **accurate**, structured, stylish information  
-- Fill gaps the official resources leave  
-- Guide newcomers without spoiling discovery  
-- Serve as a long-term **knowledge archive**  
-- Create the cleanest HumanitZ documentation available  
+Popular pages:
 
-</div>
-
----
-
-# <span style="color:#E79543;">🧩 Collapsible Quick Reference</span>
-
-<details>
-<summary><strong style="color:#E79543;">🛠️ Core Systems</strong></summary>
-
-- Survival  
-- Crafting  
-- Farming  
-- Looting  
-- Combat  
-- Weather  
-- Vehicles  
-- Base defense  
-
-</details>
-
-<details>
-<summary><strong style="color:#E79543;">🗺️ Exploration</strong></summary>
-
-- Biomes  
-- Map markers  
-- Points of interest  
-- Indoor/Outdoor threats  
-
-</details>
-
-<details>
-<summary><strong style="color:#E79543;">🧟 Enemy Types</strong></summary>
-
-- Slow zeeks  
-- Runners  
-- Special variants  
-- Animals  
-- Environmental dangers  
-
-</details>
+- Game Overview  
+- Getting Started  
+- Survival Mechanics  
+- Weapons & Gear  
+- Loot & Crafting  
+- Tips & Strategy  
+- Glossary  
+- And more…
 
 ---
 
-# <span style="color:#E79543;">🛠️ Contribute to the Wiki</span>
+## 🛠️ Contributing
 
-Help us expand the knowledge of HumanitZ.
+Everyone is welcome to help.
 
-See **[Contribute.md](Contribute.md)** for:
+### **1️⃣ Fork the Repository**
+Click **Fork** at the top right.
 
-- Style rules  
-- Page structure  
-- Navigation rules  
-- PR guidelines  
-- Content accuracy standards  
+### **2️⃣ Create a Branch**
+Example:
+git checkout -b add-survival-fire-info
+
+### **3️⃣ Edit or Add Wiki Pages**
+All content lives in:
+/pages/
+
+
+Follow the established formatting style:
+
+- Start each file with front matter:
+  ```yaml
+  ---
+  title: "Page Title"
+  layout: wiki
+  ---
+Use clean Markdown
+
+Avoid raw HTML unless necessary
+
+Use the existing tone/style for consistency
+
+4️⃣ Submit a Pull Request
+
+Explain:
+
+What you changed
+
+Why
+
+Links/screenshots if helpful
+
+A maintainer will review/merge your PR.
+
+🎨 Writing & Style Guidelines
+
+To keep the wiki consistent:
+
+Formatting
+
+Use ## and ### for headings — avoid overusing #
+
+Use tables where appropriate
+
+Keep paragraphs short and readable
+
+Use collapsible <details> blocks for long sections
+
+Tone
+
+Neutral
+
+Informative
+
+No speculation
+
+Cite in-game evidence when relevant
+
+Images
+
+Place in an /assets/images/ folder (you may create one).
+Use:
+![Description](/assets/images/example.png)
+
+💻 Running the Wiki Locally (Optional)
+
+If you want to preview your changes locally:
+
+Install Ruby + Bundler
+
+On Windows:
+Install Ruby from https://rubyinstaller.org/
+
+gem install bundler jekyll
+
+Install dependencies
+bundle install
+
+Run the wiki
+bundle exec jekyll serve
+Visit:
+http://localhost:4000/HumanitZ-Wiki/
 
 ---
 
-<p align="center" style="color:#555; font-size:13px; margin-top:40px;">
-<i>In the end of the world, knowledge is survival.</i>
-</p>
+🤝 Credits
 
+This project is community-driven and not officially affiliated with the developers of HumanitZ.
+
+Special thanks to contributors who help expand and maintain this wiki.
+
+---
+
+📬 Contact / Issues
+
+Found a mistake?
+Want to request a page?
+Need support?
+
+Create an issue:
+
+👉 https://github.com/rianaku/HumanitZ-Wiki/issues
+
+---
+
+🧡 Thank You
+
+Your contributions help new players survive a little longer in the brutal world of HumanitZ.
+
+Stay alive out there.
+
+
+---
+
+If you'd like, I can also:
+
+- Generate a **CONTRIBUTING.md** file  
+- Generate an **ISSUE_TEMPLATE.md** + **PR_TEMPLATE.md**  
+- Add shields/badges to the README  
+- Add a sidebar version of the index  
+- Add a search box powered by Lunr.js  
+
+Just say the word.
