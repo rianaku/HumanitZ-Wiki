@@ -187,13 +187,3 @@ Stay alive out there.
 
 
 ---
-
-If you'd like, I can also:
-
-- Generate a **CONTRIBUTING.md** file  
-- Generate an **ISSUE_TEMPLATE.md** + **PR_TEMPLATE.md**  
-- Add shields/badges to the README  
-- Add a sidebar version of the index  
-- Add a search box powered by Lunr.js  
-
-Just say the word.
