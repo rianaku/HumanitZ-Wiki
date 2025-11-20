@@ -1,21 +1,3 @@
-<!-- STICKY NAV (Works on GitHub Pages) -->
-<div style="position:sticky; top:0; background:#000; padding:12px 0; z-index:999; border-bottom:1px solid #333;">
-<p align="center" style="font-size:14px;">
-  <a href="index.html" style="color:#E79543; margin:0 12px;">🏠 Home</a>
-  <a href="pages/game-overview.html" style="color:#E79543; margin:0 12px;">🧭 Overview</a>
-  <a href="pages/getting-started.html" style="color:#E79543; margin:0 12px;">🎒 Getting Started</a>
-  <a href="pages/survival-mechanics.html" style="color:#E79543; margin:0 12px;">🍖 Survival</a>
-  <a href="pages/base-building.html" style="color:#E79543; margin:0 12px;">🏠 Base</a>
-  <a href="pages/loot-crafting.html" style="color:#E79543; margin:0 12px;">🔧 Crafting</a>
-  <a href="pages/weapons-gear.html" style="color:#E79543; margin:0 12px;">🔫 Weapons</a>
-  <a href="pages/enemies-threats.html" style="color:#E79543; margin:0 12px;">🧟 Enemies</a>
-  <a href="pages/map-environments.html" style="color:#E79543; margin:0 12px;">🗺️ Map</a>
-  <a href="pages/multiplayer-co-op.html" style="color:#E79543; margin:0 12px;">🤝 Co-op</a>
-  <a href="pages/tips-strategy.html" style="color:#E79543; margin:0 12px;">💡 Tips</a>
-  <a href="pages/glossary.html" style="color:#E79543; margin:0 12px;">🔤 Glossary</a>
-  <a href="pages/contribute.html" style="color:#E79543; margin:0 12px;">🛠️ Contribute</a>
-</p>
-</div>
 
 ---
 
