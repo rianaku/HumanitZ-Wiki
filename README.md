@@ -1,74 +1,159 @@
-<!-- HEADER BANNER -->
+<!-- =============================== -->
+<!--  HUMANITZ WIKI – FRONT PAGE     -->
+<!--  Branding: Orange/Black Theme   -->
+<!--  Color: #E79543 (Primary)       -->
+<!-- =============================== -->
+
+<!-- STICKY NAV (Works on GitHub Pages) -->
+<div style="position:sticky; top:0; background:#000; padding:12px 0; z-index:999; border-bottom:1px solid #333;">
+<p align="center" style="font-size:14px;">
+  <a href="README.md" style="color:#E79543; margin:0 12px;">🏠 Home</a>
+  <a href="Game-Overview.md" style="color:#E79543; margin:0 12px;">🧭 Overview</a>
+  <a href="Getting-Started.md" style="color:#E79543; margin:0 12px;">🎒 Getting Started</a>
+  <a href="Survival-Mechanics.md" style="color:#E79543; margin:0 12px;">🍖 Survival</a>
+  <a href="Base-Building.md" style="color:#E79543; margin:0 12px;">🏠 Base</a>
+  <a href="Loot-Crafting.md" style="color:#E79543; margin:0 12px;">🔧 Crafting</a>
+  <a href="Weapons-&-Gear.md" style="color:#E79543; margin:0 12px;">🔫 Weapons</a>
+  <a href="Enemies-&-Threats.md" style="color:#E79543; margin:0 12px;">🧟 Enemies</a>
+  <a href="Map-&-Environments.md" style="color:#E79543; margin:0 12px;">🗺️ Map</a>
+  <a href="Multiplayer-&-Co-op.md" style="color:#E79543; margin:0 12px;">🤝 Co-op</a>
+  <a href="Tips-&-Strategy.md" style="color:#E79543; margin:0 12px;">💡 Tips</a>
+  <a href="Glossary.md" style="color:#E79543; margin:0 12px;">🔤 Glossary</a>
+  <a href="Contribute.md" style="color:#E79543; margin:0 12px;">🛠️ Contribute</a>
+</p>
+</div>
+
+<!-- LOGO -->
 <p align="center">
-  <img src="https://humanitzgame.com/images/logo.png" width="280" />
+  <img src="https://humanitzgame.com/images/logo.png" width="280">
 </p>
 
-<h1 align="center">HumanitZ – Community Wiki</h1>
+<h1 align="center" style="color:#E79543; margin-top:0;">
+  HumanitZ – Community Wiki
+</h1>
 
-<p align="center">
-Survive. Build. Reclaim. Thrive.
+<p align="center" style="color:#C6C6C6;">
+A survival-focused, player-maintained knowledge base for the world of <strong>HumanitZ</strong>.
 <br>
-A player-maintained, highly structured knowledge base for <strong>HumanitZ</strong>.
+Built with love by survivors, for survivors.
 </p>
 
 ---
 
-## 📚 Wiki Index  
-All major topics are fully navigable from any page.
+# <span style="color:#E79543;">📚 Wiki Index</span>
 
-| Category | Description |
-|---------|-------------|
-| 🧭 **[Game Overview](Game-Overview.md)** | What HumanitZ is, game philosophy, world, setting. |
-| 🎒 **[Getting Started](Getting-Started.md)** | Beginner steps, first base, key survival tips. |
-| 🍖 **[Survival Mechanics](Survival-Mechanics.md)** | Hunger, thirst, weather, injuries, permadeath. |
-| 🏠 **[Base Building](Base-Building.md)** | Housing, fortification, outposts, farming. |
-| 🔧 **[Loot & Crafting](Loot-Crafting.md)** | Crafting trees, recipes, resources, upgrades. |
-| 🔫 **[Weapons & Gear](Weapons-&-Gear.md)** | Weapons, armor, backpacks, tools, attachments. |
-| 🧟 **[Enemies & Threats](Enemies-&-Threats.md)** | Zeeks, wildlife, hazards, world bosses. |
-| 🗺️ **[Map & Environments](Map-&-Environments.md)** | Biomes, travel, points of interest, weather. |
-| 🤝 **[Multiplayer & Co-op](Multiplayer-&-Co-op.md)** | Hosting, co-op survival strategies, roles. |
-| 💡 **[Tips & Strategy](Tips-&-Strategy.md)** | Beginner → advanced strategy systems. |
-| 🔤 **[Glossary](Glossary.md)** | Quick terms, abbreviations, mechanics. |
-| 🛠️ **[How to Contribute](Contribute.md)** | Add/edit pages, formatting rules, PR guide. |
+<div style="background:#0A0A0A; padding:20px; border:1px solid #222; border-radius:8px;">
+  
+| Section | Description |
+|--------|-------------|
+| 🧭 **[Game Overview](Game-Overview.md)** | Understand the world, lore, and core gameplay pillars. |
+| 🎒 **[Getting Started](Getting-Started.md)** | Your first day, first base, first weapons, first survival wins. |
+| 🍖 **[Survival Mechanics](Survival-Mechanics.md)** | Hunger, thirst, cold, injuries, weather, and permadeath. |
+| 🏠 **[Base Building](Base-Building.md)** | Construction, fortifications, farms, outposts, garages. |
+| 🔧 **[Loot & Crafting](Loot-Crafting.md)** | All crafting systems, recipes, harvesting, refining. |
+| 🔫 **[Weapons & Gear](Weapons-&-Gear.md)** | All weapons, melee, ranged, armor, backpack tiers. |
+| 🧟 **[Enemies & Threats](Enemies-&-Threats.md)** | Zeek types, wildlife, environmental hazards. |
+| 🗺️ **[Map & Environments](Map-&-Environments.md)** | Biomes, POIs, weather system, travel, vehicles. |
+| 🤝 **[Multiplayer & Co-op](Multiplayer-&-Co-op.md)** | Hosting, strategies, team roles, base-sharing. |
+| 💡 **[Tips & Strategy](Tips-&-Strategy.md)** | Beginner → advanced survival strategies. |
+| 🔤 **[Glossary](Glossary.md)** | All key terms, systems, abbreviations. |
+| 🛠️ **[Contribute](Contribute.md)** | Help build and improve the Wiki. |
 
----
-
-# 🎮 What Is HumanitZ?
-A zombie-survival sandbox focused on:
-- Scavenging and open-world exploration  
-- Base construction, fortification, home-building  
-- Crafting & resource gathering  
-- Brutal survival systems  
-- Challenging combat with multiple zeek types  
-- Realistic vehicles, repairs, upgrades  
-- Solo or co-op multiplayer up to four players  
+</div>
 
 ---
 
-# 🏗️ Project Goals of This Wiki  
-- **Organize everything the official & community sources fail to explain clearly**  
-- Provide **accurate**, **structured**, and **beautifully formatted** information  
-- Support both newcomers and experienced survivors  
-- Create a system that’s easy to expand as the game updates  
+# <span style="color:#E79543;">🎮 What Is HumanitZ?</span>
+
+<div style="background:#111111; padding:20px; border:1px solid #333; border-radius:8px;">
+
+HumanitZ is a **top-down open-world survival game** set in a collapsing society overrun by **zeeks** (zombies).  
+It's a slow-burn, atmospheric survival experience with:
+
+- ⚔️ **Lethal combat**
+- 🧱 **Deep base-building**
+- 🌾 **Farming, hunting, fishing**
+- 🚗 **Vehicles and repairs**
+- 🧭 **Open-world exploration**
+- 👥 **Co-op multiplayer**
+- 💀 **Optional permadeath**
+
+Everything you do matters. Every decision has consequences.
+
+</div>
 
 ---
 
-# ✨ Features of This Wiki  
-- Fully linked navigation  
-- Clean consistent headers  
-- Section boxes for clarity  
-- Optional HTML elements for GitHub Pages polish  
-- Designed to be browsed like a real game manual  
+# <span style="color:#E79543;">🏗️ Wiki Philosophy</span>
+
+<div style="background:#0F0F0F; padding:20px; border:1px solid #333; border-radius:8px;">
+
+This Wiki aims to:
+
+- Provide **accurate**, structured, stylish information  
+- Fill gaps the official resources leave  
+- Guide newcomers without spoiling discovery  
+- Serve as a long-term **knowledge archive**  
+- Create the cleanest HumanitZ documentation available  
+
+</div>
 
 ---
 
-# 🧩 Contribute  
-This wiki is built by players — your help matters.  
-Visit **[Contribute.md](Contribute.md)** for formatting & submission rules.
+# <span style="color:#E79543;">🧩 Collapsible Quick Reference</span>
+
+<details>
+<summary><strong style="color:#E79543;">🛠️ Core Systems</strong></summary>
+
+- Survival  
+- Crafting  
+- Farming  
+- Looting  
+- Combat  
+- Weather  
+- Vehicles  
+- Base defense  
+
+</details>
+
+<details>
+<summary><strong style="color:#E79543;">🗺️ Exploration</strong></summary>
+
+- Biomes  
+- Map markers  
+- Points of interest  
+- Indoor/Outdoor threats  
+
+</details>
+
+<details>
+<summary><strong style="color:#E79543;">🧟 Enemy Types</strong></summary>
+
+- Slow zeeks  
+- Runners  
+- Special variants  
+- Animals  
+- Environmental dangers  
+
+</details>
 
 ---
 
-<p align="center">
-<i>“In the end of the world, knowledge is survival.”</i>
+# <span style="color:#E79543;">🛠️ Contribute to the Wiki</span>
+
+Help us expand the knowledge of HumanitZ.
+
+See **[Contribute.md](Contribute.md)** for:
+
+- Style rules  
+- Page structure  
+- Navigation rules  
+- PR guidelines  
+- Content accuracy standards  
+
+---
+
+<p align="center" style="color:#555; font-size:13px; margin-top:40px;">
+<i>In the end of the world, knowledge is survival.</i>
 </p>
 
