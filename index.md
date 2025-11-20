@@ -1,24 +1,3 @@
-<!-- =============================== -->
-<!--  HUMANITZ WIKI – FRONT PAGE     -->
-<!--  Branding: Orange/Black Theme   -->
-<!--  Color: #E79543 (Primary)       -->
-<!-- =============================== -->
-
-<!-- LOGO -->
-<p align="center">
-  <img src="./assets/logo.jpg" width="600">
-</p>
-
-<h1 align="center" style="color:#E79543; margin-top:0;">
-  HumanitZ – Community Wiki
-</h1>
-
-<p align="center" style="color:#C6C6C6;">
-A survival-focused, player-maintained knowledge base for the world of <strong>HumanitZ</strong>.
-<br>
-Built with love by survivors, for survivors.
-</p>
-
 ---
 
 # <span style="color:#E79543;">📚 Wiki Index</span>
